@@ -1,0 +1,66 @@
+.sideMenu {
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 20px;
+    z-index: 99;
+    list-style-type: none;
+    position: fixed;
+    left: 30px;
+    top: 25%;
+    border-radius: 10px;
+    opacity: 0.4;
+    width: 90px;
+    transition: 0.5s;
+    align-items: center;
+  }
+  
+  .sideMenu:hover {
+    opacity: 1;
+  }
+  
+  .menuItem a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  .sideMenu .menuItem a:hover {
+    color: white;
+  }
+  
+  .menuDes {
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight:bold;
+  }
+
+  @media screen and (max-width:1180px) {
+    .sideMenu{
+      width: 70px;
+      gap: 10px;
+    }
+    .menuDes{
+      font-size: 10px;
+    }
+  }
+  @media screen and (max-width:971px) {
+    .sideMenu{
+      left: 10px;
+    }
+  }
+  @media screen and (max-width:677px){
+    .sideMenu{
+      width: 50px;
+    }
+    .menuDes{
+      font-size:8px;
+    }
+  }

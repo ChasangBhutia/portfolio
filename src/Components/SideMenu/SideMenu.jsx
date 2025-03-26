@@ -1,6 +1,6 @@
 import "./SideMenu.css";
 import { useState } from "react";
-import SideMenuData from "../../Assets/SideMenuData";
+import SideMenuData from "../../assets/SideMenuData";
 
 const SideMenu = () => {
   const [hover, setHover] = useState(null);

@@ -1,0 +1,176 @@
+#about{
+    text-align: center;
+    padding-left: 60px;
+    height: 100vh;
+    padding-top: 40px;
+    overflow: hidden;
+}
+
+#about h1{
+    margin-bottom: 70px;
+}
+
+
+
+.aboutContainer{
+    padding-left: 200px;
+    padding-right: 250px;
+    text-align: left;
+    margin-bottom: 100px;
+    gap: 40px;
+}
+
+.myAboutImage{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+.imageBox{
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.aboutButtons{
+    flex-direction: column;
+    gap: 10px;
+}
+.aboutButtons button{
+    height: 45px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: 20px;
+    background: rgb(11, 11, 11);
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.aboutDesContainer{
+    padding: 20px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    background: rgb(11, 11, 11);;
+}
+.aboutDesContainer ul{
+    padding-left: 20px;
+}
+
+.aboutDesContainer h2{
+    margin-bottom: 10px;
+}
+.stream{
+    margin-top: 15px;
+}
+
+.uni{
+    font-size: 15px;
+}
+
+.outcomes{
+    font-size: 13px;
+    margin-left: 30px;
+}
+
+
+@media screen and (max-width:1420px){
+    #about h1{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:1380px){
+    .aboutContainer{
+        padding-left: 150px;
+        padding-right: 200px;
+        margin-bottom: 100px;
+        
+    }
+}
+@media screen and (max-width:1240px){
+    .aboutContainer{
+        margin-bottom: 50px;
+        padding-left: 100px;
+        padding-right: 50px;
+    }
+    
+}
+@media screen and (max-width:1045px) {
+    #about{
+        padding-left: 10px;
+        padding-top: 0px;
+    }
+    .imageBox .myAboutImage{
+        height: 150px;
+        width: 150px;
+    }
+    .aboutButtons button{
+        width: 170px;
+        font-size: 15px;
+    }
+    .aboutContainer{
+        gap: 15px;
+    }
+    .stream{
+        font-size: 15px;
+    }
+    .uni{
+        font-size: 12px;
+    }
+    .outcomes{
+        font-size: 12px;
+    }
+    .summary, .hobbies{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .aboutContainer{
+        padding-left: 80px;
+        padding-right: 10px;
+    }
+}
+@media screen and (max-width:677px) {
+    #about{
+        height: 100%;
+    }
+    .aboutContainer{
+        flex-direction: column;
+        padding-left: 55px;
+    }
+    .imageBox{
+        flex-direction: row;
+        align-items: center;
+    }
+    .aboutButtons{
+        flex-direction: row;
+    }
+    .aboutButtons button{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:572px){
+    .aboutContainer .myAboutImage{
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:502px){
+    #about h1{
+        margin-left: 40px;
+    }
+    .imageBox{
+        flex-direction: column;
+    }
+    .aboutButtons button{
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:402px) {
+    .aboutButtons button{
+        width: 90px;
+    }
+}

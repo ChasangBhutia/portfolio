@@ -59,6 +59,8 @@
   @media screen and (max-width:677px){
     .sideMenu{
       width: 50px;
+      opacity: 0.6;
+      top: 10%;
     }
     .menuDes{
       font-size:8px;

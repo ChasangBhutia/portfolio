@@ -11,10 +11,7 @@ const LeftContainer = () => {
         <h1>Hello World! I'm</h1>
         <h1 className="name">Chasang T. Bhutia</h1>
         <p className="aboutMe">
-          Welcome to my portfolio! I'm Chasang, a passionate web developer and
-          designer with a keen eye for detail. I specialize in creating seamless,
-          user-centric digital experiences that are both innovative and
-          functional. Let's build something amazing together!
+        A web developer and designer dedicated to building intuitive, innovative, and detail-oriented digital products. My goal is to create experiences that feel both functional and inspiring.
         </p>
         <section className="heroButtons flex-box">
           <a href="#cv"><button className="cvBtn" onMouseEnter={()=>setIsHover(true)} onMouseLeave={()=>setIsHover(false)}>

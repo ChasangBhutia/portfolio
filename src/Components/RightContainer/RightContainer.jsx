@@ -1,4 +1,4 @@
-import myImg from "../../Assets/IMG_2020.png";
+import myImg from "../../assets/IMG_2020.png";
 
 const RightContainer = () => {
 

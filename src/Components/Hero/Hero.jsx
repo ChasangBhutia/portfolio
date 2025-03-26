@@ -1,7 +1,5 @@
 import React from 'react'
 import "./Hero.css"
-import SideMenu from '../SideMenu/SideMenu'
-import Navbar from '../Navbar/Navbar'
 import LeftContainer from '../LeftContainer/LeftContainer'
 import RightContainer from '../RightContainer/RightContainer'
 import HeroSkills from '../HeroSkills/HeroSkills'

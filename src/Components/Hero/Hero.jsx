@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Hero.css"
+import "./Responsive.css"
 import LeftContainer from '../LeftContainer/LeftContainer'
 import RightContainer from '../RightContainer/RightContainer'
 import HeroSkills from '../HeroSkills/HeroSkills'

@@ -1,0 +1,38 @@
+#skills{
+    text-align: center;
+    padding-left: 60px;
+    height: 100vh;
+    padding-top: 40px;
+}
+
+#skills h1{
+    margin-bottom: 100px;
+}
+
+.skillsContainer{
+    padding-left: 100px;
+    padding-right: 150px;
+    text-align: left;
+    margin-bottom: 200px;
+    gap: 20px;
+}
+.skillsContainer h2{
+    margin-bottom: 20px;
+}
+.technicalSkills{
+    width: 70%;
+}
+.tools{
+    width: 30%;
+}
+.technicalSkillsContainer, .toolsSkillsContainer{
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.skillsContainer img{
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+.skillsContainer img:hover{
+    filter: grayscale(0%);
+}

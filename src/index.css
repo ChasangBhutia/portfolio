@@ -2,10 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 :root {
   --primary-color: #47c0ec;
+}
+
+.primary-color{
+  color: var(--primary-color);
 }
 
 .flex-box{

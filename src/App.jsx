@@ -3,6 +3,8 @@ import React from 'react'
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import SideMenu from "./Components/SideMenu/SideMenu";
+import About from "./Components/About/About";
+import Skills from "./Components/Skills/Skills";
 
 
 const App = () => {
@@ -11,7 +13,8 @@ const App = () => {
       <SideMenu />
       <Navbar/>
       <Hero/>
-      
+      <About/>
+      <Skills/>
     </div>
   )
 }

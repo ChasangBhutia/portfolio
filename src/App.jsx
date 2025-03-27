@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import SideMenu from "./Components/SideMenu/SideMenu";
 import About from "./Components/About/About";
 import Skills from "./Components/Skills/Skills";
+import Projects from "./Components/Projects/Projects";
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Hero/>
       <About/>
       <Skills/>
+      <Projects/>
     </div>
   )
 }

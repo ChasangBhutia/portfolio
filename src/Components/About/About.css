@@ -4,6 +4,7 @@
     height: 100vh;
     padding-top: 40px;
     overflow: hidden;
+    margin-bottom: 50px;
 }
 
 #about h1{
@@ -26,6 +27,7 @@
     border-radius: 100%;
     margin-bottom: 30px;
 }
+
 .imageBox{
     flex-direction: column;
     gap: 10px;

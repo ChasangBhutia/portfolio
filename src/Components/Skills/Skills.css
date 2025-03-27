@@ -1,8 +1,8 @@
 #skills{
     text-align: center;
     padding-left: 60px;
-    height: 100vh;
-    padding-top: 40px;
+    height: 100%;
+    padding-bottom: 100px;
 }
 
 #skills h1{
@@ -13,7 +13,7 @@
     padding-left: 100px;
     padding-right: 150px;
     text-align: left;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     gap: 20px;
 }
 .skillsContainer h2{
@@ -32,7 +32,75 @@
 .skillsContainer img{
     filter: grayscale(100%);
     transition: 0.5s;
+    transform: scale(0.9);
 }
 .skillsContainer img:hover{
     filter: grayscale(0%);
+    transform: scale(1.3);
+}
+
+@media screen and (max-width:1090px){
+    .skillsContainer{
+        margin-bottom: 100px;
+    }
+    #skills h1{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:964px) {
+    .skillsContainer{
+        gap: 30px;
+    }
+
+    .skillsContainer aside h2{
+        font-size: 20px;
+    }
+    .skillsContainer img{
+        height: 60px;
+        width: 60px;
+    }
+    .toolsSkillsContainer{
+        width: 240px;
+    }
+}
+
+@media screen and (max-width:840px){
+    .toolsSkillsContainer, .technicalSkillsContainer{
+        gap: 10px;
+    }
+    .skillsContainer{
+        padding-right: 90px;
+        padding-left: 30px;
+    }
+    .toolsSkillsContainer{
+        width: 200px;
+    }
+}
+@media screen and (max-width:677px){
+    .skillsContainer{
+        flex-direction: column;
+        padding-left: 20%;
+        padding-right: 0px;
+    }
+    
+}
+
+@media screen and (max-width:542px){
+    .skillsContainer{
+        padding-left: 10%;
+    }
+    .technicalSkills, .tools{
+        width: 300px;
+    }
+}
+@media screen and (max-width:393px){
+    .skillsContainer aside img{
+        height: 40px;
+        width: 40px;
+    }
+    .technicalSkills, .tools{
+        width: 250px;
+    }
+
 }

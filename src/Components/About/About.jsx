@@ -17,7 +17,7 @@ const About = () => {
       <h1>About</h1>
       <section className="aboutContainer flex-box">
         <section className="imageBox flex-box">
-          <img src={myImage} alt="" className='myAboutImage' />
+          <img loading='lazy' src={myImage} alt="" className='myAboutImage' />
           <div className="aboutButtons flex-box">
           <button style={activeSection==="aboutMe" ? buttonClickedStyle:{}} onClick={()=>setActiveSection("aboutMe")}>About Me</button>
           <button style={activeSection==="education" ? buttonClickedStyle:{}} onClick={()=>setActiveSection("education")}>Education</button>

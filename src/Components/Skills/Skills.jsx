@@ -12,21 +12,21 @@ const Skills = () => {
                     <section className='technicalSkillsContainer flex-box'>
                         {TechnicalSkillsData.map((item, index) => {
                             return (
-                                <abbr key={index} title={item.name}><img src={item.imgUrl} alt="" height="80px" width="80px"/></abbr>
+                                <abbr key={index} title={item.name}><img loading='lazy' src={item.imgUrl} alt="" height="80px" width="80px"/></abbr>
                             )
                         })}
                     </section>
                 </aside>
-                <div className="tools">
+                <aside className="tools">
                     <h2>Tools</h2>
                     <section className='toolsSkillsContainer flex-box'>
                         {ToolsData.map((item, index) => {
                             return (
-                                <abbr key={index} title={item.name}><img src={item.imgUrl} alt="" height="80px" width="80px"/></abbr>
+                                <abbr key={index} title={item.name}><img loading='lazy' src={item.imgUrl} alt="" height="80px" width="80px"/></abbr>
                             )
                         })}
                     </section>
-                </div>
+                </aside>
             </section>
             <hr />
         </div>

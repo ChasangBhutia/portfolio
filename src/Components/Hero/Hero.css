@@ -1,8 +1,9 @@
 .hero {
-    height: 92vh;
+    height: 100%;
     padding: 40px 100px 0px 160px;
     align-items: center;
     overflow: hidden;
+    margin-bottom: 30px;
 }
 
 .hero .heroMainContainer {

@@ -1,0 +1,12 @@
+footer{
+    color: rgb(69, 68, 68);
+    font-family: "Poppins";
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}
+
+@media screen and (max-width:499px) {
+    footer{
+        font-size: 13px;
+    }
+}

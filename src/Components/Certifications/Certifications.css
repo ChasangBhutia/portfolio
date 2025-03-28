@@ -52,6 +52,7 @@
     border: none;
     outline: none;
     background: var(--primary-color);
+    color: black;
 }
 
 .certBox a button:hover{

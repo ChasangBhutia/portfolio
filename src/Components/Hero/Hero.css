@@ -17,8 +17,7 @@
 
 .leftContainer {
     color: white;
-    padding-left: 30px;
-    padding-top: 20px;
+    padding: 20px 0px 0px 30px;
 }
 
 .leftContainer h1 {

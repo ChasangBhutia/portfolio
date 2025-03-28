@@ -6,6 +6,7 @@ import SideMenu from "./Components/SideMenu/SideMenu";
 import About from "./Components/About/About";
 import Skills from "./Components/Skills/Skills";
 import Projects from "./Components/Projects/Projects";
+import Certifications from "./Components/Certifications/Certifications";
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <About/>
       <Skills/>
       <Projects/>
+      <Certifications/>
     </div>
   )
 }

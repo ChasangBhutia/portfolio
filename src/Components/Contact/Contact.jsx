@@ -11,7 +11,7 @@ const Contact = () => {
       <div className="contactContainer flex-box">
       <section className="contactContainerLeft">
         <h2>Get in touch</h2>
-        <form action="mailto:your.email@gmail.com" method="POST" encType="text/plain" className="flex-box">
+        <form action="mailto:chasangtsering@gmail.com" method="POST" encType="text/plain" className="flex-box">
           <input type="text" name="name" placeholder="Your Name" required />
           <input type="email" name="email" placeholder="Your Email" required />
           <textarea name="message" placeholder="Write Message" rows="5" required></textarea>

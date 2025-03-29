@@ -1,0 +1,40 @@
+/* Full-screen Intro */
+.introContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #010611;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Centered Name */
+.introHeading {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: "Poppins";
+    color: white;
+}
+
+/* Portfolio Page */
+.portfolio {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:852px) {
+    .introHeading{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .introHeading{
+        font-size: 2rem;
+    }
+}

@@ -19,7 +19,7 @@ const Skills = () => {
                         })}
                     </section>
                 </motion.aside>
-                <motion.aside initial={{x:"20vw", opacity:0}} whileInView={{x:"0vw",opacity:1}} transition={{type:"spring", stiffness:50, duration:1}} viewport={{once:false, amount:0.5}} className="tools">
+                <motion.aside initial={{x:"10vw", opacity:0}} whileInView={{x:"0vw",opacity:1}} transition={{type:"spring", stiffness:50, duration:1}} viewport={{once:false, amount:0.5}} className="tools">
                     <h2>Tools</h2>
                     <section className='toolsSkillsContainer flex-box'>
                         {ToolsData.map((item, index) => {

@@ -10,7 +10,7 @@ const SideMenuData = [
     id:1,
     icon: <HomeRoundedIcon sx={{fontSize:`clamp(20px, 4vw,32px)`}} />,
     text: "Home",
-    target: "#",
+    target: "/",
   },
   {
     id:2,

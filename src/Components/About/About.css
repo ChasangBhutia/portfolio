@@ -1,24 +1,11 @@
 #about{
-    text-align: center;
-    padding-left: 60px;
-    height: 100vh;
-    padding-top: 40px;
     overflow: hidden;
-    margin-bottom: 50px;
 }
-
-#about h1{
-    margin-bottom: 100px;
-}
-
-
 
 .aboutContainer{
-    padding-left: 200px;
-    padding-right: 250px;
     text-align: left;
-    margin-bottom: 100px;
     gap: 40px;
+    padding:0px 150px;
 }
 
 .myAboutImage{
@@ -79,28 +66,18 @@
     #about h1{
         margin-bottom: 20px;
     }
-}
-@media screen and (max-width:1380px){
     .aboutContainer{
-        padding-left: 150px;
-        padding-right: 200px;
-        margin-bottom: 100px;
-        
+        padding-left: 50px;
+        padding-right: 100px;
     }
 }
 @media screen and (max-width:1240px){
     .aboutContainer{
         margin-bottom: 50px;
-        padding-left: 100px;
-        padding-right: 50px;
     }
     
 }
 @media screen and (max-width:1045px) {
-    #about{
-        padding-left: 10px;
-        padding-top: 0px;
-    }
     .imageBox .myAboutImage{
         height: 150px;
         width: 150px;
@@ -111,6 +88,7 @@
     }
     .aboutContainer{
         gap: 15px;
+        padding-left: 100px;
     }
     .stream{
         font-size: 15px;
@@ -126,22 +104,13 @@
     }
 }
 
-@media screen and (max-width:839px) {
-    .aboutContainer{
-        padding-left: 80px;
-        padding-right: 10px;
-    }
-}
-@media screen and (max-width:677px) {
-    #about{
-        height: 100%;
-    }
+
+@media screen and (max-width:779px) {
     .aboutContainer{
         flex-direction: column;
-        padding-left: 55px;
     }
     .imageBox{
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
     }
     .aboutButtons{
@@ -151,20 +120,26 @@
         width: 100px;
     }
 }
+@media screen and (max-width:765px) {
+    .aboutContainer{
+        padding: 40px;
+    }
+}
 
-@media screen and (max-width:572px){
+@media screen and (max-width:612px){
     .aboutContainer .myAboutImage{
         height: 100px;
         width: 100px;
     }
 }
 
-@media screen and (max-width:502px){
+@media screen and (max-width:549px){
     #about h1{
         margin-left: 40px;
     }
-    .imageBox{
-        flex-direction: column;
+    .aboutContainer{
+        padding: 5px;
+        padding-left: 30px;
     }
     .aboutButtons button{
         height: 40px;

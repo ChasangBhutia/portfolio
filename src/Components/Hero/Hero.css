@@ -1,13 +1,14 @@
 .hero {
     height: 100%;
-    padding: 40px 100px 0px 160px;
     align-items: center;
     overflow: hidden;
     margin-bottom: 30px;
+    text-align: left;
 }
 
 .hero .heroMainContainer {
     margin-top: 20px;
+    padding:0px 30px;
 }
 
 .leftContainer,

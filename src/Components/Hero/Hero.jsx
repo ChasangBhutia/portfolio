@@ -7,7 +7,7 @@ import HeroSkills from '../HeroSkills/HeroSkills'
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div className='hero section'>
       
       <section className="heroMainContainer flex-box">
         <LeftContainer/>

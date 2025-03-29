@@ -6,9 +6,9 @@ import {TechnicalSkillsData,ToolsData} from '../../assets/SkillsData'
 
 const Skills = () => {
     return (
-        <div id='skills'>
-            <h1>Skills</h1>
-            <section className="skillsContainer flex-box">
+        <div id='skills' className='section'>
+            <h1 className='section-heading'>Skills</h1>
+            <section className="skillsContainer section-container flex-box">
                 <motion.aside initial={{x:"-30vw",opacity:0}} whileInView={{x:"0vw",opacity:1}} transition={{type:"spring", stiffness:50, duration:1}} viewport={{once:false, amount:0.5}} className="technicalSkills">
                     <h2>Technical Skills</h2>
                     <section className='technicalSkillsContainer flex-box'>

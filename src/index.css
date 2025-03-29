@@ -12,7 +12,19 @@
 .primary-color{
   color: var(--primary-color);
 }
-
 .flex-box{
   display: flex;
+}
+.section{
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-container{
+  margin-bottom: 100px;
+}
+
+.section-heading{
+  margin-bottom: 80px;
 }

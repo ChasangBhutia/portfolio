@@ -4,11 +4,7 @@
         font-size: 3rem;
     }
 }
-@media screen and (max-width:1300px) {
-    .hero{
-        padding: 40px 70px 0px 140px;
-    }
-}
+
 @media screen and (max-width:1245px) {
     .imgBox .imgItem img {
         height: 350px;
@@ -38,7 +34,6 @@
         height: 300px;
         width: 300px;
     }
-
     .homeImg .imgBox {
         height: 320px;
         width: 320px;
@@ -78,47 +73,20 @@
 }
 
 @media screen and (max-width:1091px) {
-    .hero{
-        padding: 40px 40px 0px 110px;
-    }
     .leftContainer h1{
         font-size: 2.5rem;
     }
 }
 
 @media screen and (max-width:971px) {
-    .hero{
-        padding: 40px 10px 0px 80px;
-    }
-}
-
-@media screen and (max-width:911px) {
-    .leftContainer{
-        padding-top: 50px;
-    }
    .leftContainer h1{
     font-size: 2.3rem;
    }
 }
 @media screen and (max-width:867px) {
-    .hero{
-        padding-right: 90px;
-        padding-top: 10px;
-    }
     .imgBox .imgItem img {
         height: 220px;
         width: 220px;
-    }
-
-    .homeImg .imgBox {
-        height: 340px;
-        width: 340px;
-    }
-
-    .homeImg {
-        height: 220px;
-        width: 220px;
-        margin-top: 30px;
     }
 
     .imgBox::before,
@@ -156,15 +124,10 @@
     }
 }
 
-@media screen and (max-width:677px){
-    .hero{
-        padding: 40px 45px 0px 45px;
-    }
-}
-@media screen and (max-width:626px) {
+
+@media screen and (max-width:681px) {
     .hero{
         margin-top: 0px;
-        padding: 0px;
         text-align: center;
     }
     .hero .heroMainContainer{

@@ -1,7 +1,7 @@
 .navbar {
   justify-content: space-between;
   align-items: center;
-  padding: 30px 100px 20px 100px;
+  padding: 40px;
   height: 8vh;
   z-index: 90;
 }

@@ -5,9 +5,9 @@ import ProjectsData from '../../assets/ProjectsData'
 
 const Projects = () => {
     return (
-        <div id='projects'>
-            <h1>Projects</h1>
-            <section className="projectsContainer flex-box">
+        <div id='projects' className='section'>
+            <h1 className='section-heading'>Projects</h1>
+            <section className="projectsContainer section-container flex-box">
                 {ProjectsData.map((item, index) => {
                     return (
                         <motion.div initial={{scale:0.2, opacity:0}} whileInView={{scale:1,opacity:1}} transition={{ stiffness:50, duration:0.7}} viewport={{ once: false, amount: 0.4 }}  key={index} className="card">

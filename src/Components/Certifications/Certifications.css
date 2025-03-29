@@ -1,18 +1,8 @@
-#certifications{
-    text-align: center;
-    height: 100%;
-    padding: 0px 0px 50px 70px;
-}
-
-#certifications h1{
-    margin: 50px 0px;
-}
 
 .certificationsContainer{
     gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 140px;
 }
 
 .certBox{
@@ -60,7 +50,7 @@
    color: white;
 }
 
-@media screen and (max-width:646px) {
+@media screen and (max-width:870px) {
     .certificationsContainer{
         padding: 0px 20px;
     }

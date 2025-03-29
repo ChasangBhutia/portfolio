@@ -14,9 +14,9 @@ const About = () => {
   }
 
   return (
-    <div id='about'>
-      <h1>About</h1>
-      <section className="aboutContainer flex-box">
+    <div id='about' className='section'>
+      <h1 className='section-heading'>About</h1>
+      <section className="aboutContainer section-container flex-box">
         <motion.section initial={{x:"-20vw",opacity:0}} whileInView={{x:"0vw",opacity:1}}  transition={{type:"spring",stiffness:50, duration:1}} viewport={{once:false, amount:0.4}} className="imageBox flex-box">
           <img loading='lazy' src={myImage} alt="" className='myAboutImage' />
           <div className="aboutButtons flex-box">

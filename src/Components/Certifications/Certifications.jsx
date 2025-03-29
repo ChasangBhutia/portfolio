@@ -5,9 +5,9 @@ import CertificationsData from '../../assets/CertificationsData'
 
 const Certifications = () => {
     return (
-        <div id='certifications'>
-            <h1>Certifications</h1>
-            <section className="certificationsContainer flex-box">
+        <div id='certifications' className='section'>
+            <h1 className='section-heading'>Certifications</h1>
+            <section className="certificationsContainer section-container flex-box">
                 {CertificationsData.map((item, index) => {
                     return (
                         <motion.section initial={{x:"-20vw",opacity:0}} whileInView={{x:"0vw",opacity:1}} transition={{duration:0.5}} viewport={{once:false, amount:0.5}} key={index} className='certBox flex-box'>

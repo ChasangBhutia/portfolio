@@ -7,9 +7,9 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 const Contact = () => {
   return (
-    <div id='contact'>
-      <h1>Contact</h1>
-      <div className="contactContainer flex-box">
+    <div id='contact' className='section'>
+      <h1 className='section-heading'>Contact</h1>
+      <div className="contactContainer section-container flex-box">
       <motion.section initial={{x:"-30vw", opacity:0}} whileInView={{x:"0vw",opacity:1}} transition={{type:"spring", stiffness:50, duration:1}} viewport={{once:false, amount:0.4}} className="contactContainerLeft">
         <h2>Get in touch</h2>
         <form action="mailto:chasangtsering@gmail.com" method="POST" encType="text/plain" className="flex-box">
@@ -19,7 +19,7 @@ const Contact = () => {
           <button type="submit">Submit</button>
         </form>
       </motion.section>
-      <motion.section className="contactContainerRight flex-box" initial={{x:"30vw", opacity:0}} whileInView={{x:"0vw",opacity:1}} transition={{type:"spring", stiffness:50, duration:1}} viewport={{once:false, amount:0.4}} >
+      <motion.section className="contactContainerRight flex-box" initial={{x:"20vw", opacity:0}} whileInView={{x:"0vw",opacity:1}} transition={{type:"spring", stiffness:50, duration:1}} viewport={{once:false, amount:0.4}} >
         <section>
           <LocalPhoneIcon className='contactIcon' fontSize='large' sx={{color: '#47c0ec'}}/>
           <span>Phone</span>

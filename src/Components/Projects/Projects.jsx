@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Projects.css"
+import { motion } from "framer-motion"
 import ProjectsData from '../../assets/ProjectsData'
 
 const Projects = () => {
@@ -9,7 +10,7 @@ const Projects = () => {
             <section className="projectsContainer flex-box">
                 {ProjectsData.map((item, index) => {
                     return (
-                        <div key={index} className="card">
+                        <motion.div initial={{scale:0.2, opacity:0}} whileInView={{scale:1,opacity:1}} transition={{ stiffness:50, duration:0.7}} viewport={{ once: false, amount: 0.4 }}  key={index} className="card">
                             <div className="imgBx" style={{backgroundImage:`url("${item.imgUrl}")`}}></div>
                             <div className="content">
                                 <span className='name'>
@@ -21,7 +22,7 @@ const Projects = () => {
                                     <a href={item.gitUrl} target='_blank'><button>Source Code</button></a>
                                 </section>
                             </div>
-                        </div>
+                        </motion.div>
                     )
                 })}
             </section>

@@ -1,13 +1,15 @@
 import React from 'react'
+import { motion } from "framer-motion"
 import "./Skills.css"
 import {TechnicalSkillsData,ToolsData} from '../../assets/SkillsData'
+
 
 const Skills = () => {
     return (
         <div id='skills'>
             <h1>Skills</h1>
             <section className="skillsContainer flex-box">
-                <aside className="technicalSkills">
+                <motion.aside initial={{x:"-30vw",opacity:0}} whileInView={{x:"0vw",opacity:1}} transition={{type:"spring", stiffness:50, duration:1}} viewport={{once:false, amount:0.5}} className="technicalSkills">
                     <h2>Technical Skills</h2>
                     <section className='technicalSkillsContainer flex-box'>
                         {TechnicalSkillsData.map((item, index) => {
@@ -16,8 +18,8 @@ const Skills = () => {
                             )
                         })}
                     </section>
-                </aside>
-                <aside className="tools">
+                </motion.aside>
+                <motion.aside initial={{x:"20vw", opacity:0}} whileInView={{x:"0vw",opacity:1}} transition={{type:"spring", stiffness:50, duration:1}} viewport={{once:false, amount:0.5}} className="tools">
                     <h2>Tools</h2>
                     <section className='toolsSkillsContainer flex-box'>
                         {ToolsData.map((item, index) => {
@@ -26,7 +28,7 @@ const Skills = () => {
                             )
                         })}
                     </section>
-                </aside>
+                </motion.aside>
             </section>
             <hr />
         </div>

@@ -1,9 +1,10 @@
 import myImg from "../../assets/IMG_2020.png";
+import { motion } from "framer-motion"
 
 const RightContainer = () => {
 
     return (
-        <section className="rightContainer flex-box">
+        <motion.section className="rightContainer flex-box" initial={{x:"20vw",opacity:0}} whileInView={{x:"0vw", opacity:1}} transition={{type:"spring",stiffness:50, duration:2}} viewport={{once:false,amount:0.5}}>
             <div className="homeImg">
                 <div className="imgBox flex-box">
                     <div className="imgItem flex-box">
@@ -16,7 +17,7 @@ const RightContainer = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </motion.section>
     );
 };
 

@@ -1,12 +1,13 @@
 import React,{useState} from "react";
 import DownloadIcon from '@mui/icons-material/Download';
+import { motion } from "framer-motion"
 
 const LeftContainer = () => {
 
   const [isHover, setIsHover] = useState(false);
 
     return (
-      <section className="leftContainer">
+      <motion.section className="leftContainer" initial={{x:"-20vw",opacity:0}} whileInView={{x:"0vw", opacity:1}} transition={{type:"spring",stiffness:50, duration:2}} viewport={{once:false,amount:0.5}}>
         <p>Full-Stack Developer</p>
         <h1>Hello World! I'm</h1>
         <h1 className="name">Chasang T. Bhutia</h1>
@@ -20,7 +21,7 @@ const LeftContainer = () => {
             </button></a>
           <a href="#contact"><button className="contactBtn">Contact Me</button></a>
         </section>
-      </section>
+      </motion.section>
     );
   };
   

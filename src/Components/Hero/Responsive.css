@@ -184,4 +184,7 @@
     .hero{
         padding-left: 80px;
     }
+    .heroMainContainer .leftContainer .aboutMe{
+        width: 270px;
+    }
 }

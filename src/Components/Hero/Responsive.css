@@ -179,3 +179,9 @@
         letter-spacing: 0px;
     }
 }
+
+@media screen and (max-width:549px){
+    .hero{
+        padding-left: 80px;
+    }
+}

@@ -1,0 +1,5 @@
+# robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://portfolio-chasang-tserinh-bhutias-projects.vercel.app/sitemap.xml

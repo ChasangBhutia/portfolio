@@ -15,7 +15,7 @@ const LeftContainer = () => {
         A web developer and designer dedicated to building intuitive, innovative, and detail-oriented digital products. My goal is to create experiences that feel both functional and inspiring.
         </p>
         <section className="heroButtons flex-box">
-          <a href="/myCV.pdf" target="_blank"><button className="cvBtn" onMouseEnter={()=>setIsHover(true)} onMouseLeave={()=>setIsHover(false)}>
+          <a href="/myCv.pdf" target="_blank"><button className="cvBtn" onMouseEnter={()=>setIsHover(true)} onMouseLeave={()=>setIsHover(false)}>
             {!isHover&&<span>Get CV</span>}
             {isHover&&<span className="flex-box download"><p>Download</p> <DownloadIcon/></span>}
             </button></a>

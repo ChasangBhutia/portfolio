@@ -6,8 +6,9 @@
   z-index: 90;
 }
 .navbar .logo {
-  font-size: clamp(15px, 4vw, 30px);
+  font-size: clamp(15px, 4vw, 40px);
   color: white;
+  font-family: "Caveat", cursive;
 }
 
 .navbar .dev {

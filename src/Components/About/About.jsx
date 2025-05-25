@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { motion } from "framer-motion"
 import "./About.css"
 import myImage from "../../assets/myImg.png"
-import { colors } from '@mui/material';
+
 
 const About = () => {
 

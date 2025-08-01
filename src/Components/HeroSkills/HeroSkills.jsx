@@ -6,7 +6,7 @@ const HeroSkills = () => {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["MERN | JAVA | ReactJS | NodeJs | Bootstrap"],
+      strings: ["MERN | JAVA | ReactJS | NodeJs | Tailwind"],
       typeSpeed: 100,
       loop: true,
       backSpeed: 50,
@@ -20,8 +20,8 @@ const HeroSkills = () => {
   }, []);
 
   return (
-    <section className="heroSkills">
-      <span ref={el} />
+    <section  className="text-center my-5 xl:my-10">
+      <span className="text-[10px] lg:text-[14px]" style={{fontFamily: '"Press Start 2P", serif'}} ref={el} />
     </section>
   );
 };

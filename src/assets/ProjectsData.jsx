@@ -14,6 +14,13 @@ const mern = "https://res.cloudinary.com/dzjspl6ws/image/upload/v1754076715/3_wa
 
 const ProjectsData = [
     {
+        name: "HelpDesk",
+        url: "https://help-desk-gamma-nine.vercel.app/",
+        imgUrl: "https://res.cloudinary.com/dzjspl6ws/image/upload/v1759781680/Screenshot_2025-10-07_014130_plqppn.png",
+        des: "HelpDesk is a ticketing system where users raise issues, agents resolve them by priority, and admins oversee smooth support operations.",
+        techUsed: [mern, tailwind,],
+        gitUrl: "https://github.com/ChasangBhutia/HelpDesk.git"
+    },    {
         name: "CBT",
         url: "https://react-component-generator-five.vercel.app/",
         imgUrl: "https://res.cloudinary.com/dzjspl6ws/image/upload/v1754075485/Screenshot_2025-08-02_003929_ria2yd.png",
